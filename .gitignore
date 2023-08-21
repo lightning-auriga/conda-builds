@@ -1,0 +1,7 @@
+conda-builds/noarch/.cache
+conda-builds/linux-64/.cache
+conda-builds/git_cache
+conda-builds/src_cache
+conda-builds/broken
+package*json
+node_modules

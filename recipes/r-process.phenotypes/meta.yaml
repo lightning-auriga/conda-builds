@@ -1,0 +1,68 @@
+package:
+    name: r-process.phenotypes
+    version: 1.4.1
+source:
+    git_url: https://github.com/lightning-auriga/process.phenotypes.git
+    git_rev: 1.4.1
+    git_depth: 1
+build:
+    number: '0'
+    rpaths:
+        - lib/
+        - lib/R/lib/
+    string: '0'
+requirements:
+    build:
+        - {{ compiler('cxx') }}
+        - make
+    host:
+        - r-base>=4.0.0
+        - r-foreign
+        - r-ggplot2
+        - r-haven
+        - r-kableextra
+        - r-knitr
+        - r-jsonvalidate
+        - r-magrittr
+        - r-openxlsx
+        - r-rcolorbrewer
+        - r-rjson
+        - r-rlang
+        - r-rmarkdown
+        - r-stringdist
+        - r-stringi
+        - r-stringr
+        - r-yaml
+        - icu
+    run:
+        - r-base>=4.0.0
+        - r-foreign
+        - r-ggplot2
+        - r-haven
+        - r-kableextra
+        - r-knitr
+        - r-jsonvalidate
+        - r-magrittr
+        - r-openxlsx
+        - r-rcolorbrewer
+        - r-rjson
+        - r-rlang
+        - r-rmarkdown
+        - r-stringdist
+        - r-stringi
+        - r-stringr
+        - r-yaml
+        - icu
+test:
+    commands:
+        - $R -e "library('process.phenotypes')"
+about:
+    home: https://github.com/lightning-auriga/process.phenotypes
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.md
+    summary: Process phenotype datasets and report
+extra:
+    copy_test_source_files: true
+    final: true
+

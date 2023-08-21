@@ -1,0 +1,105 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "metal-2011_03_25-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "4ed0a01d65ab024011e7b448a53832c8",
+      "name": "metal",
+      "sha256": "946cfb223bd00dc1c6b9f8ac44c23d5306711699768e1c148eefd60007659fb0",
+      "size": 536757,
+      "subdir": "linux-64",
+      "timestamp": 1692649192083,
+      "version": "2011_03_25"
+    },
+    "r-gap.construct.trait.file-1.0.7-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "pandoc",
+        "r-base >=4.0.0",
+        "r-optmatch",
+        "r-process.phenotypes",
+        "r-yaml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b00b28d05d9bb3b7e6f50df06b567464",
+      "name": "r-gap.construct.trait.file",
+      "sha256": "fe804df680fbd3ebe179916170eccbf0a9ed70e0d16f9ff58640e1443f6d9f4b",
+      "size": 94297,
+      "subdir": "linux-64",
+      "timestamp": 1692647191291,
+      "version": "1.0.7"
+    },
+    "r-optmatch-v0.10.6-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "pandoc",
+        "r-arm",
+        "r-base >=4",
+        "r-biglm",
+        "r-boot",
+        "r-dplyr",
+        "r-knitr",
+        "r-magrittr",
+        "r-markdown",
+        "r-pander",
+        "r-r.methodss3",
+        "r-rcpp",
+        "r-rlemon",
+        "r-rmarkdown",
+        "r-tibble"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ffe74a2194bc5276c3ecba639ac5998d",
+      "name": "r-optmatch",
+      "sha256": "9e21a8b2a58fe23e677594b63d76199c367dd139f658fdd62b588dd9aaf24608",
+      "size": 849015,
+      "subdir": "linux-64",
+      "timestamp": 1692645868910,
+      "version": "v0.10.6"
+    },
+    "r-process.phenotypes-1.4.1-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "icu",
+        "r-base >=4.0.0",
+        "r-foreign",
+        "r-ggplot2",
+        "r-haven",
+        "r-jsonvalidate",
+        "r-kableextra",
+        "r-knitr",
+        "r-magrittr",
+        "r-openxlsx",
+        "r-rcolorbrewer",
+        "r-rjson",
+        "r-rlang",
+        "r-rmarkdown",
+        "r-stringdist",
+        "r-stringi",
+        "r-stringr",
+        "r-yaml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "74b086c13be9ffa0db752a1f4d27d474",
+      "name": "r-process.phenotypes",
+      "sha256": "6b356e68fabf904b6cd599db494fafe9776336e003cb9bfe4ced46d022650ccb",
+      "size": 531167,
+      "subdir": "linux-64",
+      "timestamp": 1692645545970,
+      "version": "1.4.1"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

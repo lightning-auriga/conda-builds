@@ -1,0 +1,43 @@
+{% set version="1.0.0" %}
+
+
+package:
+  name: gnomix
+  version: {{ version }}
+
+source:
+  url: "https://github.com/AI-sandbox/gnomix/archive/refs/heads/main.zip"
+  sha256: "1a5d970917e21e5c8b2e829459c51d3935f49b37c5fca892f3555458d194214c"
+
+build:
+  number: 0
+  noarch: python
+  skip: true  # [py<37]
+  entry_points:
+    - gnomix = gnomix:main
+
+
+
+#  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir --no-build-isolation -vvv
+
+requirements:
+  host:
+    - pip
+    - python
+    - sed
+    - setuptools
+    - wheel
+  run:
+    - python
+    - matplotlib
+    - numpy
+    - pandas
+    - pyyaml
+    - scikit-allel
+    - scikit-learn
+    - scipy
+    - seaborn
+    - sklearn-crfsuite
+    - tqdm
+    - xgboost
+    - uncertainty-calibration

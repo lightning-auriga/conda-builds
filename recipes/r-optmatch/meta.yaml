@@ -1,0 +1,61 @@
+package:
+    name: r-optmatch
+    version: v0.10.6
+source:
+    git_url: "https://github.com/markmfredrickson/optmatch.git"
+    git_rev: "v0.10.6"
+build:
+    number: '0'
+    rpaths:
+        - lib/
+        - lib/R/lib/
+    string: '0'
+requirements:
+    build:
+        - {{ compiler('cxx') }}
+        - make
+    host:
+        - r-rcpp
+        - r-dplyr
+        - r-base>=4
+        - r-tibble
+        - r-r.methodss3
+        - r-rlemon
+        - r-boot
+        - r-biglm
+        - r-arm
+        - r-knitr
+        - r-rmarkdown
+        - r-markdown
+        - r-pander
+        - pandoc
+        - r-magrittr
+    run:
+        - r-rcpp
+        - r-dplyr
+        - r-base>=4
+        - r-tibble
+        - r-r.methodss3
+        - r-rlemon
+        - r-boot
+        - r-biglm
+        - r-arm
+        - r-knitr
+        - r-rmarkdown
+        - r-markdown
+        - r-pander
+        - pandoc
+        - r-magrittr
+test:
+    commands:
+        - $R -e "library('optmatch')"
+about:
+    home: https://github.com/markmfredrickson/optmatch.git
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.md
+    summary: Functions for optimal matching in R
+extra:
+    copy_test_source_files: true
+    final: true
+

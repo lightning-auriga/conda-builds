@@ -1,0 +1,28 @@
+{
+  "info": {
+    "subdir": "noarch"
+  },
+  "packages": {
+    "uncertainty-calibration-0.1.4-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "numpy",
+        "parameterized",
+        "python",
+        "scikit-learn"
+      ],
+      "md5": "85eefb08e917912a6e8c44cdd1d5cb6d",
+      "name": "uncertainty-calibration",
+      "noarch": "python",
+      "sha256": "c7934d02be967825f928221acde604dc156c9d65f5fdd91b28743bad1e3f149b",
+      "size": 20345,
+      "subdir": "noarch",
+      "timestamp": 1691003769306,
+      "version": "0.1.4"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

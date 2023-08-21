@@ -1,0 +1,99 @@
+{
+  "channeldata_version": 1,
+  "packages": {
+    "metal": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "home": "http://csg.sph.umich.edu/abecasis/Metal/index.html",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "run_exports": {},
+      "source_url": "http://csg.sph.umich.edu/abecasis/Metal/download/Linux-metal.tar.gz",
+      "subdirs": [
+        "linux-64"
+      ],
+      "text_prefix": false,
+      "timestamp": 1692649192,
+      "version": "2011_03_25"
+    },
+    "r-gap.construct.trait.file": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "home": "https://github.com/lightning-auriga/gap.construct.trait.file",
+      "license": "MIT",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "run_exports": {},
+      "source_git_url": "https://github.com/lightning-auriga/gap.construct.trait.file.git",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "Read in phenotype text files and configuration yamls. Apply configuration information. Using parameter settings, construct output files in specified formats for use in downstream GWAS analysis tools. Test library utilities.",
+      "text_prefix": false,
+      "timestamp": 1692647191,
+      "version": "1.0.7"
+    },
+    "r-optmatch": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "home": "https://github.com/markmfredrickson/optmatch.git",
+      "license": "MIT",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "run_exports": {},
+      "source_git_url": "https://github.com/markmfredrickson/optmatch.git",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "Functions for optimal matching in R",
+      "text_prefix": false,
+      "timestamp": 1692645868,
+      "version": "v0.10.6"
+    },
+    "r-process.phenotypes": {
+      "activate.d": false,
+      "binary_prefix": true,
+      "deactivate.d": false,
+      "home": "https://github.com/lightning-auriga/process.phenotypes",
+      "license": "MIT",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "run_exports": {},
+      "source_git_url": "https://github.com/lightning-auriga/process.phenotypes.git",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "Process phenotype datasets and report",
+      "text_prefix": true,
+      "timestamp": 1692645545,
+      "version": "1.4.1"
+    },
+    "uncertainty-calibration": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "run_exports": {},
+      "source_url": "https://files.pythonhosted.org/packages/28/7a/a9b8f063fca2b3d339bd10d38363d58983e8c79095b81c4c87f3a124e211/uncertainty-calibration-0.1.4.tar.gz",
+      "subdirs": [
+        "noarch"
+      ],
+      "text_prefix": false,
+      "timestamp": 1691003769,
+      "version": "0.1.4"
+    }
+  },
+  "subdirs": [
+    "linux-64",
+    "noarch"
+  ]
+}

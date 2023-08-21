@@ -1,0 +1,42 @@
+package:
+    name: r-gap.construct.trait.file
+    version: 1.0.7
+source:
+    git_url: https://github.com/lightning-auriga/gap.construct.trait.file.git
+    git_rev: 1.0.7
+    git_depth: 1
+build:
+    number: '0'
+    rpaths:
+        - lib/
+        - lib/R/lib/
+    string: '0'
+requirements:
+    build:
+        - {{ compiler('cxx') }}
+        - make
+    host:
+        - r-base>=4.0.0
+        - r-optmatch
+        - r-process.phenotypes
+        - r-yaml
+        - pandoc
+    run:
+        - r-base>=4.0.0
+        - r-optmatch
+        - r-process.phenotypes
+        - r-yaml
+        - pandoc
+test:
+    commands:
+        - $R -e "library('gap.construct.trait.file')"
+about:
+    home: https://github.com/lightning-auriga/gap.construct.trait.file
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.md
+    summary: Read in phenotype text files and configuration yamls. Apply configuration information. Using parameter settings, construct output files in specified formats for use in downstream GWAS analysis tools. Test library utilities.
+extra:
+    copy_test_source_files: true
+    final: true
+
