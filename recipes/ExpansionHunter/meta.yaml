@@ -26,9 +26,9 @@ requirements:
     - {{ compiler('clang') }} # [osx]
     - make
     - cmake
-    - boost
   host:
     - abseil-cpp >=20210324.2,<20210324.3
+    - boost >=1.73
     - bzip2
     - fmt
     - gmock
@@ -50,6 +50,3 @@ about:
   license: APACHE
   license_file: LICENSE.txt
   summary: "A tool for estimating repeat sizes"
-extra:
-  skip-lints:
-    - should_not_be_noarch_source
