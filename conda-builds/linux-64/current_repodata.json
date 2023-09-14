@@ -3,12 +3,11 @@
     "subdir": "linux-64"
   },
   "packages": {
-    "expansionhunter-5.0.0-hfcec0f7_0.tar.bz2": {
-      "build": "hfcec0f7_0",
+    "expansionhunter-5.0.0-h2bc3f7f_0.tar.bz2": {
+      "build": "h2bc3f7f_0",
       "build_number": 0,
       "depends": [
         "abseil-cpp >=20210324.2,<20210324.3.0a0",
-        "boost >=1.82,<1.83.0a0",
         "bzip2 >=1.0.8,<2.0a0",
         "fmt >=10.1.1,<11.0a0",
         "gtest >=1.14.0,<1.14.1.0a0",
@@ -22,12 +21,12 @@
         "xz >=5.2.6,<6.0a0"
       ],
       "license": "APACHE",
-      "md5": "ca56a99f006978718d7dcf1ee8054bee",
+      "md5": "5a6d9cf2dccda733eed11b6e4c92e1d4",
       "name": "expansionhunter",
-      "sha256": "a40d709e11954edef38f0bfa11833fb7a0f0b4d2b01b4bb61e43540f016aa000",
-      "size": 3145771,
+      "sha256": "8e154c75b761d8a944ca4d7248450ee26e7509b359f4f94e62ab76c254763b66",
+      "size": 3143499,
       "subdir": "linux-64",
-      "timestamp": 1694620716421,
+      "timestamp": 1694635303430,
       "version": "5.0.0"
     },
     "metal-2011_03_25-0.tar.bz2": {
