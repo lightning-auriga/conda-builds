@@ -35,36 +35,6 @@
       "timestamp": 1692647191291,
       "version": "1.0.7"
     },
-    "r-optmatch-v0.10.6-0.tar.bz2": {
-      "build": "0",
-      "build_number": 0,
-      "depends": [
-        "pandoc",
-        "r-arm",
-        "r-base >=4",
-        "r-biglm",
-        "r-boot",
-        "r-dplyr",
-        "r-knitr",
-        "r-magrittr",
-        "r-markdown",
-        "r-pander",
-        "r-r.methodss3",
-        "r-rcpp",
-        "r-rlemon",
-        "r-rmarkdown",
-        "r-tibble"
-      ],
-      "license": "MIT",
-      "license_family": "MIT",
-      "md5": "ffe74a2194bc5276c3ecba639ac5998d",
-      "name": "r-optmatch",
-      "sha256": "9e21a8b2a58fe23e677594b63d76199c367dd139f658fdd62b588dd9aaf24608",
-      "size": 849015,
-      "subdir": "linux-64",
-      "timestamp": 1692645868910,
-      "version": "v0.10.6"
-    },
     "r-process.phenotypes-1.4.1-0.tar.bz2": {
       "build": "0",
       "build_number": 0,

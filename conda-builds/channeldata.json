@@ -61,36 +61,6 @@
       "timestamp": 1692647191,
       "version": "1.0.7"
     },
-    "r-optmatch": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": "https://github.com/markmfredrickson/optmatch.git",
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": null,
-      "keywords": null,
-      "license": "MIT",
-      "post_link": false,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": "https://github.com/markmfredrickson/optmatch.git",
-      "source_url": null,
-      "subdirs": [
-        "linux-64"
-      ],
-      "summary": "Functions for optimal matching in R",
-      "tags": null,
-      "text_prefix": false,
-      "timestamp": 1692645868,
-      "version": "v0.10.6"
-    },
     "r-process.phenotypes": {
       "activate.d": false,
       "binary_prefix": true,
