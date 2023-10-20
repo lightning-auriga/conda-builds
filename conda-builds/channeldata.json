@@ -1,6 +1,42 @@
 {
   "channeldata_version": 1,
   "packages": {
+    "imputed-data-dynamic-threshold": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": "https://github.com/lightning-auriga/imputed-data-dynamic-threshold",
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "https://gitlab.com/lightning-auriga/imputed-data-dynamic-threshold",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": "MIT",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {
+        "1.1.1": {
+          "weak": [
+            "imputed-data-dynamic-threshold >=1.1.1,<2.0a0"
+          ]
+        }
+      },
+      "source_git_url": null,
+      "source_url": "https://github.com/lightning-auriga/imputed-data-dynamic-threshold/archive/refs/tags/1.1.1.tar.gz",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "compute r2 threshold using Yun Li cleaning method",
+      "tags": null,
+      "text_prefix": false,
+      "timestamp": 1697830827,
+      "version": "1.1.1"
+    },
     "metal": {
       "activate.d": false,
       "binary_prefix": false,

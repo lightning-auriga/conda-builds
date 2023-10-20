@@ -1,0 +1,31 @@
+package:
+  name: imputed-data-dynamic-threshold
+  version: 1.1.1
+source:
+  url: "https://github.com/lightning-auriga/imputed-data-dynamic-threshold/archive/refs/tags/1.1.1.tar.gz"
+  sha256: "29b125a393efcf3dee56b91583ece476a4f64d3e50048e905ab135195521b17f"
+
+build:
+  number: '0'
+  run_exports:
+    - {{ pin_subpackage('imputed-data-dynamic-threshold', max_pin="x") }}
+
+requirements:
+  build:
+    - autoconf
+    - automake
+    - libtool
+    - {{ compiler('cxx') }}
+    - make >=4.2
+  host:
+    - boost >=1.79
+    - zlib
+    - cppunit
+  run:
+    - boost
+about:
+  dev_url: https://github.com/lightning-auriga/imputed-data-dynamic-threshold
+  home: https://gitlab.com/lightning-auriga/imputed-data-dynamic-threshold
+  license: MIT
+  license_file: LICENSE
+  summary: compute r2 threshold using Yun Li cleaning method
