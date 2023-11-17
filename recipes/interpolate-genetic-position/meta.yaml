@@ -1,0 +1,34 @@
+package:
+  name: interpolate-genetic-position
+  version: 1.0.0
+source:
+  url: "https://github.com/lightning-auriga/interpolate-genetic-position/archive/refs/tags/1.0.0.tar.gz"
+  sha256: "992d108d9087d90a548c5cdd0014b8f0068c1b32914e584158bf26f0dd42b7cd"
+
+build:
+  number: '0'
+  run_exports:
+    - {{ pin_subpackage('interpolate-genetic-position', max_pin="x") }}
+
+requirements:
+  build:
+    - autoconf
+    - automake
+    - libtool
+    - {{ compiler('cxx') }}
+    - make >=4.2
+  host:
+    - boost >=1.79
+    - zlib
+    - libbigwig
+    - gmp
+    - gtest
+    - gmock
+  run:
+    - boost
+about:
+  dev_url: https://github.com/lightning-auriga/interpolate-genetic-position
+  home: https://gitlab.com/lightning-auriga/interpolate-genetic-position
+  license: MIT
+  license_file: COPYING
+  summary: Use reference genetic map to interpolate genetic position for a query set of variants

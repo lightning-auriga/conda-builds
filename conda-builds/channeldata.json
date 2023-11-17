@@ -37,6 +37,42 @@
       "timestamp": 1697830827,
       "version": "1.1.1"
     },
+    "interpolate-genetic-position": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": "https://github.com/lightning-auriga/interpolate-genetic-position",
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "https://gitlab.com/lightning-auriga/interpolate-genetic-position",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": "MIT",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {
+        "1.0.0": {
+          "weak": [
+            "interpolate-genetic-position >=1.0.0,<2.0a0"
+          ]
+        }
+      },
+      "source_git_url": null,
+      "source_url": "https://github.com/lightning-auriga/interpolate-genetic-position/archive/refs/tags/1.0.0.tar.gz",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "Use reference genetic map to interpolate genetic position for a query set of variants",
+      "tags": null,
+      "text_prefix": false,
+      "timestamp": 1700250663,
+      "version": "1.0.0"
+    },
     "metal": {
       "activate.d": false,
       "binary_prefix": false,
