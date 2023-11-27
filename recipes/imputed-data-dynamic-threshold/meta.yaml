@@ -1,9 +1,9 @@
 package:
   name: imputed-data-dynamic-threshold
-  version: 1.1.1
+  version: 1.2.0
 source:
-  url: "https://github.com/lightning-auriga/imputed-data-dynamic-threshold/archive/refs/tags/1.1.1.tar.gz"
-  sha256: "29b125a393efcf3dee56b91583ece476a4f64d3e50048e905ab135195521b17f"
+  url: "https://github.com/lightning-auriga/imputed-data-dynamic-threshold/archive/refs/tags/1.2.0.tar.gz"
+  sha256: "e8cf58b1ce2d63703f6ec812a9eaf339560bed2be78fc372ca4eb0000c639574"
 
 build:
   number: '0'
@@ -20,7 +20,8 @@ requirements:
   host:
     - boost >=1.79
     - zlib
-    - cppunit
+    - htslib
+    - gtest
   run:
     - boost
 about:

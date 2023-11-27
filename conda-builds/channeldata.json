@@ -24,10 +24,15 @@
           "weak": [
             "imputed-data-dynamic-threshold >=1.1.1,<2.0a0"
           ]
+        },
+        "1.2.0": {
+          "weak": [
+            "imputed-data-dynamic-threshold >=1.2.0,<2.0a0"
+          ]
         }
       },
       "source_git_url": null,
-      "source_url": "https://github.com/lightning-auriga/imputed-data-dynamic-threshold/archive/refs/tags/1.1.1.tar.gz",
+      "source_url": "https://github.com/lightning-auriga/imputed-data-dynamic-threshold/archive/refs/tags/1.2.0.tar.gz",
       "subdirs": [
         "linux-64"
       ],
@@ -35,7 +40,7 @@
       "tags": null,
       "text_prefix": false,
       "timestamp": 1697830827,
-      "version": "1.1.1"
+      "version": "1.2.0"
     },
     "interpolate-genetic-position": {
       "activate.d": false,
