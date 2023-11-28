@@ -62,6 +62,28 @@
       "timestamp": 1700250663692,
       "version": "1.0.0"
     },
+    "interpolate-genetic-position-1.1.0-hfcec0f7_0.tar.bz2": {
+      "build": "hfcec0f7_0",
+      "build_number": 0,
+      "depends": [
+        "boost >=1.83,<1.84.0a0",
+        "gmp >=6.3.0,<7.0a0",
+        "gtest >=1.14.0,<1.14.1.0a0",
+        "htslib >=1.18,<1.19.0a0",
+        "libbigwig >=0.4.7,<0.5.0a0",
+        "libgcc-ng >=13",
+        "libstdcxx-ng >=13",
+        "libzlib >=1.2.13,<1.3.0a0"
+      ],
+      "license": "MIT",
+      "md5": "a2faf598a9deed3204ddce0ccf278ec1",
+      "name": "interpolate-genetic-position",
+      "sha256": "a1e3c7840794b8dc06fd41c2d536ca01a94916a22b86ece4a66ff9d87d9c70d5",
+      "size": 967589,
+      "subdir": "linux-64",
+      "timestamp": 1701205203062,
+      "version": "1.1.0"
+    },
     "metal-2011_03_25-0.tar.bz2": {
       "build": "0",
       "build_number": 0,

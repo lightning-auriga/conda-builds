@@ -1,9 +1,9 @@
 package:
   name: interpolate-genetic-position
-  version: 1.0.0
+  version: 1.1.0
 source:
-  url: "https://github.com/lightning-auriga/interpolate-genetic-position/archive/refs/tags/1.0.0.tar.gz"
-  sha256: "992d108d9087d90a548c5cdd0014b8f0068c1b32914e584158bf26f0dd42b7cd"
+  url: "https://github.com/lightning-auriga/interpolate-genetic-position/archive/refs/tags/1.1.0.tar.gz"
+  sha256: "97aff3bd5790460e46a0633dbf0d0bff8b0bda2569bde63fa367899bb69924d3"
 
 build:
   number: '0'
@@ -24,6 +24,7 @@ requirements:
     - gmp
     - gtest
     - gmock
+    - htslib
   run:
     - boost
 about:
