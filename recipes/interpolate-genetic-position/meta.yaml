@@ -6,7 +6,7 @@ source:
   sha256: "97aff3bd5790460e46a0633dbf0d0bff8b0bda2569bde63fa367899bb69924d3"
 
 build:
-  number: '0'
+  number: '1'
   run_exports:
     - {{ pin_subpackage('interpolate-genetic-position', max_pin="x") }}
 

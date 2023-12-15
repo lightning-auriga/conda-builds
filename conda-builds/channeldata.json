@@ -39,7 +39,7 @@
       "summary": "compute r2 threshold using Yun Li cleaning method",
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1701100338,
+      "timestamp": 1702657142,
       "version": "1.2.0"
     },
     "interpolate-genetic-position": {
@@ -80,7 +80,7 @@
       "summary": "Use reference genetic map to interpolate genetic position for a query set of variants",
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1701205203,
+      "timestamp": 1702657373,
       "version": "1.1.0"
     },
     "metal": {
