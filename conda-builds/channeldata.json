@@ -20,11 +20,6 @@
       "pre_unlink": false,
       "recipe_origin": null,
       "run_exports": {
-        "1.1.1": {
-          "weak": [
-            "imputed-data-dynamic-threshold >=1.1.1,<2.0a0"
-          ]
-        },
         "1.2.0": {
           "weak": [
             "imputed-data-dynamic-threshold >=1.2.0,<2.0a0"
@@ -61,16 +56,6 @@
       "pre_unlink": false,
       "recipe_origin": null,
       "run_exports": {
-        "1.0.0": {
-          "weak": [
-            "interpolate-genetic-position >=1.0.0,<2.0a0"
-          ]
-        },
-        "1.1.0": {
-          "weak": [
-            "interpolate-genetic-position >=1.1.0,<2.0a0"
-          ]
-        },
         "1.2.1": {
           "weak": [
             "interpolate-genetic-position >=1.2.1,<2.0a0"
@@ -85,7 +70,7 @@
       "summary": "Use reference genetic map to interpolate genetic position for a query set of variants",
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1700250663,
+      "timestamp": 1704480406,
       "version": "1.2.1"
     },
     "metal": {
