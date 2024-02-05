@@ -36,6 +36,7 @@ You can add a channel to it directly using a text editor, or use the following c
 - [r-gap.construct.trait.file](https://github.com/lightning-auriga/gap.construct.trait.file)
 - [r-process.phenotypes](https://github.com/lightning-auriga/process.phenotypes)
 - [r-sveval](https://github.com/jmonlong/sveval)
+- [uncertainty-calibration](https://pypi.org/project/uncertainty-calibration/)
 
 TBD!
 
