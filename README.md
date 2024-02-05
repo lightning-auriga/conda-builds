@@ -38,8 +38,6 @@ You can add a channel to it directly using a text editor, or use the following c
 - [r-sveval](https://github.com/jmonlong/sveval)
 - [uncertainty-calibration](https://pypi.org/project/uncertainty-calibration/)
 
-TBD!
-
 ### How To Contribute!
 
 This process is somewhat complicated, so bear with me. This is really just a draft,
