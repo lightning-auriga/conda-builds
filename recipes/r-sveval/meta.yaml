@@ -1,0 +1,72 @@
+package:
+    name: r-sveval
+    version: v2.3.0
+source:
+    git_url: https://github.com/jmonlong/sveval.git
+    git_rev: v2.3.0
+build:
+    number: '0'
+    rpaths:
+        - lib/
+        - lib/R/lib/
+    string: '0'
+requirements:
+    build:
+        - {{ compiler('cxx') }}
+        - make
+    host:
+        - r-base >=4
+        - bioconductor-biostrings
+        - bioconductor-delayedarray
+        - bioconductor-genomeinfodb
+        - bioconductor-genomicranges
+        - bioconductor-iranges
+        - bioconductor-s4vectors
+        - bioconductor-variantannotation
+        - r-diagrammer
+        - r-dplyr
+        - r-dt
+        - r-ggplot2
+        - r-igraph
+        - r-logging
+        - r-magrittr
+        - r-matrix
+        - r-rcpp
+        - r-rlang
+        - r-shiny
+        - r-testthat
+        - r-tidyr
+    run:
+        - r-base >=4
+        - bioconductor-biostrings
+        - bioconductor-delayedarray
+        - bioconductor-genomeinfodb
+        - bioconductor-genomicranges
+        - bioconductor-iranges
+        - bioconductor-s4vectors
+        - bioconductor-variantannotation
+        - r-diagrammer
+        - r-dplyr
+        - r-dt
+        - r-ggplot2
+        - r-igraph
+        - r-logging
+        - r-magrittr
+        - r-matrix
+        - r-rcpp
+        - r-rlang
+        - r-shiny
+        - r-testthat
+        - r-tidyr
+test:
+    commands:
+        - $R -e "library(sveval)"
+about:
+    home: https://github.com/jmonlong/sveval
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Evaluate SV in a call set against a truth set using overlap-based approaches and sequence comparison for insertions.
+extra:
+    copy_test_source_files: true
+    final: true

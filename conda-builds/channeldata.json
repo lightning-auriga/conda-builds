@@ -85,7 +85,7 @@
       "summary": "Use reference genetic map to interpolate genetic position for a query set of variants",
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1702657373,
+      "timestamp": 1700250663,
       "version": "1.2.1"
     },
     "metal": {
@@ -177,6 +177,36 @@
       "text_prefix": false,
       "timestamp": 1692645545,
       "version": "1.4.1"
+    },
+    "r-sveval": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "https://github.com/jmonlong/sveval",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": "MIT",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": "https://github.com/jmonlong/sveval.git",
+      "source_url": null,
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "Evaluate SV in a call set against a truth set using overlap-based approaches and sequence comparison for insertions.",
+      "tags": null,
+      "text_prefix": false,
+      "timestamp": 1707155027,
+      "version": "v2.3.0"
     },
     "uncertainty-calibration": {
       "activate.d": false,
