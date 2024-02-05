@@ -30,6 +30,13 @@ You can add a channel to it directly using a text editor, or use the following c
 
 ### Supported Packages
 
+- [imputed-data-dynamic-threshold](https://github.com/lightning-auriga/imputed-data-dynamic-threshold)
+- [interpolate-genetic-position](https://github.com/lightning-auriga/interpolate-genetic-position)
+- [metal](https://csg.sph.umich.edu/abecasis/metal/download/)
+- [r-gap.construct.trait.file](https://github.com/lightning-auriga/gap.construct.trait.file)
+- [r-process.phenotypes](https://github.com/lightning-auriga/process.phenotypes)
+- [r-sveval](https://github.com/jmonlong/sveval)
+
 TBD!
 
 ### How To Contribute!
