@@ -193,6 +193,42 @@
       "timestamp": 1707155027,
       "version": "v2.3.0"
     },
+    "ufasta": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": "https://github.com/gmarcais/ufasta",
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "https://github.com/gmarcais/ufasta",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": null,
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {
+        "v0.0.3": {
+          "weak": [
+            "ufasta >=v0.0.3,<1a"
+          ]
+        }
+      },
+      "source_git_url": null,
+      "source_url": "https://github.com/gmarcais/ufasta/archive/refs/tags/v0.0.3.zip",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "Utility to manipulate fasta files",
+      "tags": null,
+      "text_prefix": false,
+      "timestamp": 1708716700,
+      "version": "v0.0.3"
+    },
     "uncertainty-calibration": {
       "activate.d": false,
       "binary_prefix": false,

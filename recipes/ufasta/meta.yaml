@@ -1,0 +1,28 @@
+package:
+  name: ufasta
+  version: v0.0.3
+source:
+  url: "https://github.com/gmarcais/ufasta/archive/refs/tags/v0.0.3.zip"
+  sha256: "c65ba7cf13d8b0c7eeb1f76e80c0858b4661a467dfc89cca19af06f6f4954495"
+
+build:
+  number: '0'
+  run_exports:
+    - {{ pin_subpackage('ufasta', max_pin="x") }}
+
+requirements:
+  build:
+    - autoconf
+    - automake
+    - libtool
+    - {{ compiler('cxx') }}
+    - make >=4.2
+    - yaggo
+  host:
+    - boost >=1.79
+  run:
+    - boost
+about:
+  dev_url: https://github.com/gmarcais/ufasta
+  home: https://github.com/gmarcais/ufasta
+  summary: Utility to manipulate fasta files
